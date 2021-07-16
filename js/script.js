@@ -8,7 +8,6 @@ form.addEventListener('submit', (e) => {
         Nome: nome,
         Email: email
     }
-
     localStorage.setItem('Informações', JSON.stringify(dados));
     alert("Cadastro realizado com sucesso");
 });
