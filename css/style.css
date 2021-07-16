@@ -120,7 +120,10 @@ footer h3 {
     width: 350px;
     border-radius: 10px;
     padding: 10px; 
-    box-shadow: 0px 0px 6px 12px darkgray; /*rgba(224, 221, 21, 0.582);*/
+    border-radius: 18px;
+    border: darkgray solid 15px;
+    box-shadow: 0px 0px 2px 4px darkgray; 
+    
 }
 
 .descricao-container {
