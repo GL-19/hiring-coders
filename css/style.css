@@ -13,22 +13,22 @@ body {
     background-image: url(../assets/background-wp.jpg);
 }
 
-header {
+.section-banner {
     font-weight: bolder;
     text-align: center;
     color: white;
 }
 
-header p {
+.section-banner p {
     font-size: 1.6rem;
 }
 
-header img {
+.section-banner img {
     margin-top: 10px;
     max-width: 500px;
 }
 
-.section-banner {
+.section-cadastro {
     width: 100vw;
     height: auto;
     display: flex;
@@ -172,11 +172,11 @@ footer h3 {
 }
 
 @media (max-width: 500px) {
-    header p {
+    .section-banner p {
         font-size: 1.2rem;
     }
     
-    header img {
+    .section-banner img {
         margin-top: 10px;
         width: 90vw;
     }
@@ -185,7 +185,7 @@ footer h3 {
         margin: 10px;
     }
 
-    .section-banner {
+    .section-cadastro {
         display: flex;
         flex-direction: column;
         justify-content: center;
