@@ -16,7 +16,7 @@ body {
 .section-banner {
     font-weight: bolder;
     text-align: center;
-    color: white;
+    color: yellow;
 }
 
 .section-banner p {
@@ -56,12 +56,34 @@ footer {
     width: 100vw;
     margin: 0 auto;  
     margin-top: 20px;
-    background-color: grey/*rgb(167, 120, 63);*/
+    background-color: rgb(167, 120, 63);
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    width: 100vw;
+    margin: 0 auto;  
+    margin-bottom: 20px;
+    background-color: rgb(167, 120, 63);
+}
+
+header h1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: justify;
+    color: rgb(235, 235, 33);
+    margin-left: 30px;
 }
 
 footer h3 {
     display: block;
-    color: #fff;
+    color: rgb(235, 235, 33);
     font-size: 100%;
     text-align: center;
 }
@@ -75,15 +97,14 @@ footer h3 {
     padding: 5px;
     width: 200px;
     height: 320px;    
-    background: grey; /*rgb(167, 120, 63);*/
-    border-radius: 12px;
+    background: rgb(167, 120, 63); 
 }
 
 .produto:hover {
     width: 220px;
     height: 350px;
     cursor: pointer;
-    box-shadow: 0px 0px 4px 8px darkgray; /*rgba(224, 221, 21, 0.582);*/
+    box-shadow: 0px 0px 4px 8px white;
 }
 .produto h1 {
     text-align: center;
@@ -116,13 +137,11 @@ footer h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: grey; /*rgb(167, 120, 63);*/
+    background-color: rgb(167, 120, 63);
     width: 350px;
     padding: 10px; 
     border-radius: 18px;
-    border: darkgray solid 15px;
-    box-shadow: 0px 0px 2px 4px darkgray; 
-    
+    border: white solid 15px;
 }
 
 .descricao-container {
@@ -162,7 +181,7 @@ footer h3 {
     text-align: center;
     font-weight: bolder;
     border-radius: 10px;
-    background-color: darkgray; /*rgb(136, 88, 28);*/
+    background-color: rgb(105, 63, 16); 
     color: white;
 }
 
@@ -172,6 +191,14 @@ footer h3 {
 }
 
 @media (max-width: 500px) {
+    header {
+        justify-content: center;
+    }
+    header h1 {
+        text-align: center;
+        margin: 0px;
+        font-size: 24px;
+    }
     .section-banner p {
         font-size: 1.2rem;
     }
