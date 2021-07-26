@@ -5,13 +5,11 @@ form.addEventListener('submit', (e) => {
     let nome = document.getElementById('nome-cliente').value;
     let email = document.getElementById('email-cliente').value;
     let telefone = document.getElementById('telefone-cliente').value;
-    let cpf = document.getElementById('cpf-cliente').value;
     let endereco = document.getElementById('endereco-cliente').value;
     const dados = {
         nome: nome,
         email: email,
         telefone: telefone, 
-        cpf: cpf,
         endereco: endereco
     }
     console.log(dados);

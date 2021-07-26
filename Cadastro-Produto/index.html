@@ -23,11 +23,11 @@
             </div>
             <div class="container-input">
                 <label for="preco-produto">Preço</label><br>
-                <input type="text" id="preco-produto" class="input-text" placeholder="Preço">
+                <input type="number" step="0.01" min="0" value="0.00" max="1000000" id="preco-produto" class="input-text">
             </div>
             <div class="container-input">
                 <label for="quantidade-produto">Quantidade</label><br>
-                <input type="text" id="quantidade-produto" class="input-text" placeholder="Quantidade">
+                <input type="number" id="quantidade-produto" value="0" min="0" max="200000" class="input-text" >
             </div>
             <input type="submit" class="input-submit" value="Cadastrar">
             <a href="../index.html" class="botao">Voltar</a>
